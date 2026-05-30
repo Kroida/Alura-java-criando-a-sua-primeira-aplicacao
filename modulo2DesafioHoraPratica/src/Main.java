@@ -30,5 +30,5 @@ void main() {
     double precoOriginal = 250;
     double percentualDesconto = 10;
     double valorDesconto = precoOriginal - ((precoOriginal / 100) * percentualDesconto);
-    System.out.println(valorDesconto);
+    System.out.println("R$" + valorDesconto);
 }
